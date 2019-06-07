@@ -13,5 +13,5 @@ end
 
 
 def move(board, index, value = "X")
-  board << value = board[index]
+  board += value = board[index]
 end
