@@ -7,11 +7,10 @@ def display_board(board)
 end
 
 def input_to_index(string)
-  value = string.to_i - 1
-  return value
+  index = string.to_i - 1
+  return index
 end
 
-def move?(input_to_index)
-  board = [" "," "," "," "," "," "," "," "," "]
-   board << board[input_to_index]
- end 
+def move?(board, index, value)
+  board[index]=value
+ end
