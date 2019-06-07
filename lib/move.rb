@@ -11,6 +11,7 @@ def input_to_index(string)
   return index
 end
 
-def move?(board, index, value)
-  board[index]=value
- end
+board = [" ", " ", " "]
+def update_array_at_with(array, index, value)
+  array[index] = value
+end
