@@ -8,6 +8,6 @@ end
 
 def input_to_index(string)
   value = string.to_i - 1
-  answer = board[value]
-  return answer
+
+  return value
 end
