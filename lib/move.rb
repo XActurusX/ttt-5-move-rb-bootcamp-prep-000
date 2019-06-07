@@ -10,3 +10,8 @@ def input_to_index(string)
   value = string.to_i - 1
   return value
 end
+
+def move?(input_to_index)
+  board = [" "," "," "," "," "," "," "," "," "]
+   board << board[input_to_index]
+ end 
