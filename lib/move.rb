@@ -7,5 +7,7 @@ def display_board(board)
 end
 
 def input_to_index(string)
-  string.to_i
+  value = string.to_i - 1
+  answer = board[value]
+  return answer
 end 
